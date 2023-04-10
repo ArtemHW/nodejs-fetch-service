@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-fetch-service",
+  "version": "1.0.0",
+  "description": "A web service that is used to fetching data and provide api for my applications",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dmytro27Ind/nodejs-fetch-service.git"
+  },
+  "author": "Dmytro Kagirov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dmytro27Ind/nodejs-fetch-service/issues"
+  },
+  "homepage": "https://github.com/Dmytro27Ind/nodejs-fetch-service#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "graphql-request": "^5.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
