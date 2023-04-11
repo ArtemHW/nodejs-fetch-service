@@ -1,3 +1,18 @@
+/**
+     * @swagger
+     *
+     * /api/portfolio/git/contributions:
+     *   get:
+     *     description: Get my contributions form GitHub
+     *     produces:
+     *       - application/json
+     *     responses:
+     *       200:
+     *         description: ok
+	 *     tags:
+	 *       - Portfolio
+     */
+
 const express = require('express');
 const PortfolioRouter = express.Router();
 const { gql, GraphQLClient } = require('graphql-request')
