@@ -1,15 +1,43 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>NodeJS Fetch Service</title>
-    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.5.1/dist/confetti.browser.min.js"></script>
-    <script src="index.js"></script>
+    <title>stm32_consoles</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+      .center-text {
+        text-align: center;
+      }
+
+      .button-container {
+        margin-top: 20px;
+      }
+
+      .flag-button {
+        padding: 10px 20px;
+        background-color: #0074d9;
+        color: white;
+        border: none;
+        cursor: pointer;
+      }
+    </style>
   </head>
   <body>
-    <section>
-      Hello from NodeJS Fetch Service!
-      <button onclick="location.href='/api-docs';">Open API docs</button>
-    </section>
+    <div class="center-text">
+      Hello from STM32
+    </div>
+    <div class="button-container">
+      <button class="flag-button" id="flag-button">Flag Ukr</button>
+    </div>
+
+    <script>
+      // JavaScript code to perform an action when the button is clicked
+      const flagButton = document.getElementById('flag-button');
+
+      flagButton.addEventListener('click', function() {
+        // Replace this with the action you want to perform
+        alert('Flag Ukr button clicked!');
+      });
+    </script>
+
   </body>
 </html>
